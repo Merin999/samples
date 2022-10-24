@@ -1,0 +1,23 @@
+div{
+    border: 1px solid black;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction:row;                               
+    height: fit-content;
+    justify-content: space-evenly;
+}
+
+.item{
+    width: 25%;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 24pt;
+    flex-grow: 1;
+}
+.item2{
+    flex-grow: 2;
+}
